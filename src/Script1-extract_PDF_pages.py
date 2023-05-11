@@ -1,9 +1,14 @@
 import PyPDF2
 import os
 
-output_path = os.path.join(os.path.dirname(__file__), 'data/housing_market_Q1/preprocessed', 'extracted.pdf')
+output_location = 'trial'
+output_file_name = 'mw2303.pdf'
+input_file_name = 'mw2303-march.pdf'
+
+output_path = os.path.join(os.path.dirname(__file__), 'data/housing_market_Q1/{}'.format(output_location), output_file_name)
 # Open the PDF file in read-binary mode
-with open('data/housing_market_Q1/raw/mw2303-march.pdf', 'rb') as file:
+#The location of the input file is relative to the location of the folder in whch the PDF is located
+with open('data/housing_market_Q1/raw/{}'.format(input_file_name), 'rb') as file:
     # Create a PDF reader object
     pdf_reader = PyPDF2.PdfReader(file)
     

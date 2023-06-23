@@ -1,3 +1,5 @@
+# This script is not being used at the moment.
+# Rxtraction of tables from PDF is done usign Excel.
 import tabula
 import camelot
 

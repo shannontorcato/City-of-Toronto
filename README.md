@@ -4,6 +4,8 @@
 # Objective
 This project aims to create an opensource database for the City of Toronto that can be used to to identify areas of the city where the need for affordable housing is greatest, and to provide policymakers with actionable insights and recommendations for addressing the affordable housing crisis in Toronto.
 
+![Data Source Workflow](https://github.com/shannontorcato/City-of-Toronto/blob/master/My%20First%20Board.jpg)
+
 # Methodology
 1. **Data Collection**: We will collect data from various sources, including the Toronto Real Estate Board, Statistics Canada, the City of Toronto's Homelessness Dashboard, and other relevant sources. The data will include information on housing prices, rental rates, income levels, household demographics, and homelessness.
 
